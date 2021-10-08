@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Docs️
           </Link>
         </div>
       </div>
@@ -38,3 +38,5 @@ export default function Home() {
     </Layout>
   );
 }
+
+//git@github.com:AsgardiansCode/AsgardiansCode.git
