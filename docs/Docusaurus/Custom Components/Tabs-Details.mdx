@@ -2,37 +2,42 @@
 sidebar_position: 1
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Tabs & Details
+
+
+In blog posts FrontMatter, you can reference the authors declared in the global configuration file:
 
 ## Tabs
 
 ````mdx-code-block
+<Tabs groupId="author-frontmatter">
+  <TabItem value="single" label="Single author">
 
-<Tabs groupId = "Tab 1">
-  <TabItem value="Tab 1 value" label="Tab 1 Label">
-
-```yml title="Tab 1 Title"
+```yml title="my-blog-post.md"
 ---
-Tab 1 Content
+authors: jmarcey
 ---
 ```
+
   </TabItem>
+  <TabItem value="multiple" label="Multiple authors">
 
-  <TabItem value="Tab 2 value" label="Tab 2 Label">
-
-```yml title="Tab 2 Title"
+```yml title="my-blog-post.md"
 ---
-Tab 2 Content
+authors: [jmarcey, slorber]
 ---
 ```
+
   </TabItem>
 </Tabs>
-
 ````
+
 
 ````js
 ````mdx-code-block
-
 <Tabs groupId = "Tab 1">
   <TabItem value="Tab 1 value" label="Tab 1 Label">
 
@@ -42,7 +47,6 @@ Tab 1 Content
 ---
 ```
   </TabItem>
-
   <TabItem value="Tab 2 value" label="Tab 2 Label">
 
 ```yml title="Tab 2 Title"
@@ -57,5 +61,35 @@ Tab 2 Content
 ````
 
 
+<Tabs groupId="author-formatter">
+  <TabItem value="single" label="Single author">
 
+```yml title="my-blog-post.md"
+---
+authors: jmarcey
+---
+```
 
+  </TabItem>
+  <TabItem value="multiple" label="Multiple authors">
+
+```yml title="my-blog-post.md"
+---
+authors: [jmarcey, slorber]
+---
+```
+
+  </TabItem>
+</Tabs>
+
+<Tabs>
+  <TabItem value="apple" label="Apple" default>
+    This is an apple 🍎
+  </TabItem>
+  <TabItem value="orange" label="Orange">
+    This is an orange 🍊
+  </TabItem>
+  <TabItem value="banana" label="Banana">
+    This is a banana 🍌
+  </TabItem>
+</Tabs>;
