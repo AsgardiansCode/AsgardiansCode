@@ -7,36 +7,17 @@ import TabItem from '@theme/TabItem';
 
 # Tabs & Details
 
-
-In blog posts FrontMatter, you can reference the authors declared in the global configuration file:
-
 ## Tabs
 
-````mdx-code-block
-<Tabs groupId="author-frontmatter">
-  <TabItem value="single" label="Single author">
-
-```yml title="my-blog-post.md"
----
-authors: jmarcey
----
-```
-
-  </TabItem>
-  <TabItem value="multiple" label="Multiple authors">
-
-```yml title="my-blog-post.md"
----
-authors: [jmarcey, slorber]
----
-```
-
-  </TabItem>
-</Tabs>
-````
-
+Before adding tags you need to add these code line on top of your code
 
 ````js
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+````
+
+Then you can add add this code block.
+
 ````mdx-code-block
 <Tabs groupId = "Tab 1">
   <TabItem value="Tab 1 value" label="Tab 1 Label">
@@ -58,29 +39,23 @@ Tab 2 Content
 </Tabs>
 
 ````
-````
+Preview of above code :
 
+<Tabs groupId = "Tab 1">
+  <TabItem value="Tab 1 value" label="Tab 1 Label">
 
-<Tabs groupId="author-formatter">
-  <TabItem value="single" label="Single author">
-
-```yml title="my-blog-post.md"
----
-authors: jmarcey
----
-```
+Tab 1 Content Here
 
   </TabItem>
-  <TabItem value="multiple" label="Multiple authors">
+  <TabItem value="Tab 2 value" label="Tab 2 Label">
 
-```yml title="my-blog-post.md"
----
-authors: [jmarcey, slorber]
----
-```
+Tab 2 Content Here
 
   </TabItem>
 </Tabs>
+
+
+Example :
 
 <Tabs>
   <TabItem value="apple" label="Apple" default>
@@ -93,3 +68,44 @@ authors: [jmarcey, slorber]
     This is a banana 🍌
   </TabItem>
 </Tabs>;
+
+
+## Details
+
+<details>
+  <summary>Summery of You Details in here</summary>
+
+Details Goes in here.Content
+
+You can any kind of other components here.Content
+
+</details>
+
+<details>
+  <summary>Summery 2</summary>
+
+Details Goes in here.Content
+
+You can any kind of other components here.Conte
+
+</details>
+
+````js
+<details>
+  <summary>Summery of You Details in here</summary>
+
+Details Goes in here.Content
+
+You can any kind of other components here.Content
+
+</details>
+
+<details>
+  <summary>Summery 2</summary>
+
+Details Goes in here.Content
+
+You can any kind of other components here.Conte
+
+</details>
+````
