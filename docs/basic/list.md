@@ -61,13 +61,28 @@ lst = [x ** 2 for x in range(1, 11) if x % 2 == 1]
 
 </details>
 
-power_of_2 = [2 ** x for x in range(1, 9)]   -> [2, 4, 8, 16, 32, 64, 128, 256]
+<details>
+<summary> Power of 2 => [2, 4, 8, 16] </summary>
 
-noprimes = [j for i in range(2, 8) for j in range(i * 2, 50, i)]
-primes = [x for x in range(2, 50) if x not in noprimes]
+````
+[2 ** x for x in range(1, 4)] 
+````
+
+</details>
+
+<details>
+<summary> Primes / No Primes </summary>
+
+````
+    noprimes = [j for i in range(2, 8) for j in range(i * 2, 50, i)]
+    primes = [x for x in range(2, 50) if x not in noprimes]
 
     ls = set(noprimes) # Remove duplicates
     noprimes = list(ls)
     
     print(primes)
     print(noprimes)
+````
+
+</details>
+
