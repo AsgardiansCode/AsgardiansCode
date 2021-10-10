@@ -86,3 +86,39 @@ lst = [x ** 2 for x in range(1, 11) if x % 2 == 1]
 
 </details>
 
+<details>
+<summary> Lowering the Characters </summary>
+
+````
+print ([x.lower() for x in ["A","B","C"]] )
+````
+
+</details>
+
+<details>
+<summary> Extract Numbers </summary>
+
+````
+string = "my phone number is : 11122 !!"
+
+print("\nExtracted digits")
+numbers = [x for x in string if x.isdigit()]
+print (numbers)
+````
+
+</details>
+
+<details>
+<summary> A list of list for multiplication table </summary>
+
+````
+    a = 5
+    table = [[a, b, a * b] for b in range(1, 11)]
+    
+    print("\nMultiplication Table")
+    for i in table:
+        print (i) 
+````
+
+</details>
+
