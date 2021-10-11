@@ -122,6 +122,55 @@ print (numbers)
 
 </details>
 
-## Next
+## Slicing
+
+````py
+[start : stop : steps]
+````
+
+
+<details>
+<summary> Slicing examples with Revising list </summary>
+
+````
+lst =list(range(1, 11))
+````
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+````
+lst1_5 = lst[1 : 5]
+````
+[2, 3, 4, 5]
+````
+lst5_8 = lst[5 : 8]
+````
+[6, 7, 8]
+````
+lst1_ = lst[1 : ]
+````
+[2, 3, 4, 5, 6, 7, 8, 9, 10]
+````
+lst_5 = lst[: 5]
+````
+[1, 2, 3, 4, 5]
+````
+lst1_8_2 = lst[1 : 8 : 2]
+````
+[2, 4, 6, 8]
+````
+lst_rev = lst[ : : -1]
+````
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+````
+lst_rev_9_5_2 = lst[9 : 4 : -2]
+````
+[10, 8, 6]
+</details>
+
+
+
+
+
+
+
 
 
