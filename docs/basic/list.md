@@ -169,6 +169,8 @@ lst_rev_9_5_2 = lst[9 : 4 : -2]
 
 # Filtering
 
+https://www.geeksforgeeks.org/python-list-comprehension-and-slicing/
+
 
 
 
