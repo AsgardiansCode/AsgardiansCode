@@ -174,23 +174,31 @@ https://www.geeksforgeeks.org/python-list-comprehension-and-slicing/
 
 ````py
 import functools
-  
-#  filtering odd numbers
+````
+
+````
 lst = filter(lambda x : x % 2 == 1, range(1, 20))
-print (list(lst))
+````
+[1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
    
-#  filtering odd square which are divisible by 5
+````
 lst = filter(lambda x : x % 5 == 0, 
       [x ** 2 for x in range(1, 11) if x % 2 == 1])
-print (list(lst))
+````
+[25]
    
-#   filtering negative numbers
+````
 lst = filter((lambda x: x < 0), range(-5,5))
-print (list(lst))
+````
+[-5, -4, -3, -2, -1]
    
-#  implementing max() function, using
+````
 print (functools.reduce(lambda a,b: a if (a > b) else b, [7, 12, 45, 100, 15]))
 ````
+100
+
+
+
 
 
 
