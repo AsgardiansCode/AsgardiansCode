@@ -17,7 +17,7 @@ Scrum encourages teams to learn through experiences to continuously improve, sel
 
 Planing -> Daily Scrum -> Review/ Demo -> Retrospective
 This one process is called as a sprint.
-Sprint is from 2 – 4 weeks.
+Sprint is from 2 to 4 weeks.
 
 ## Artifact
 
@@ -40,7 +40,7 @@ A sprint backlog may be flexible but the sprint goal should be fixed once the sp
 ### Increment / Sprint Goal
 Usable end product of sprint.
 This is usually a demo during the end-of-sprint demo, where shows what done in the sprint.
-New release of software, Potentially shippable of deploybale.
+New release of software, Potentially shippable of deployable.
 
 ## Scrum Ceremonies or Events
 These are events or meetings done by scrum teams on regular basis.
@@ -59,12 +59,12 @@ In here The team defines the works and the sprint goal they need to achieve in t
 Specific user stories are added to the sprint from the product backlog.
 These stories align with the sprint goal and the team agrees that the goal is feasible during the sprint.
 
-### Daily Scrum / Standup
-Is a short meeting that happen at the same time of the day. It usually takes like 15 min in the morning. The team will be stand and face to face so they can stay focus.
-The goal of the standup meeting is to make sure that everyone is on the same page, aligned with the sprint goal, and what to do in  24 hours.
-This Helps to adapt to changes and new information and keep transparency.
+### Daily Scrum / Stand up
+Is a short meeting that happen at the same time of the day. It usually takes like 15 min in the morning. The team will be stand and face to face, so they can stay focus.
+The goal of the stand-up meeting is to make sure that everyone is on the same page, aligned with the sprint goal, and what to do in  24 hours.
+This Helps to adapt to change and new information and keep transparency.
 
-In the standup meeting team member talk about,
+In the stand-up meeting team member talk about,
 What did I do yesterday?
 What do I plan to do today?
 Are there any obstacles?
@@ -78,9 +78,9 @@ No side conversations
 No Phone and texting
 
 ### Sprint Review
-Collaborative meetings show what is accomplished and get feedback from stakeholders. This is kind of a demo but with true transeperacy. This feedback is used to plan the next sprint.
+Collaborative meetings show what is accomplished and get feedback from stakeholders. This is kind of a demo but with true transverse. This feedback is used to plan the next sprint.
 
-### Sprint Retrosprective
+### Sprint Retrospective
 This meet helps to reflect on how things have gone and how things can be improved.
 Follow agile Principe “Reflect how to be more efficient and adjust accordingly”
 
