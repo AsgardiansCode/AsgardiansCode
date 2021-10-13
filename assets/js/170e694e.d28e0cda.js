@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkasgardians=self.webpackChunkasgardians||[]).push([[5078],{6948:function(a){a.exports=JSON.parse('{"allTagsPath":"/AsgardiansCode/blog/tags","slug":"/AsgardiansCode/blog/tags/wfh","name":"WFH","count":1,"permalink":"/AsgardiansCode/blog/tags/wfh"}')}}]);

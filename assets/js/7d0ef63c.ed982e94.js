@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkasgardians=self.webpackChunkasgardians||[]).push([[2154],{4803:function(a){a.exports=JSON.parse('{"permalink":"/AsgardiansCode/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":7,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
