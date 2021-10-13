@@ -14,6 +14,7 @@ tags: [Industry, WFH]
   - Be accountable
 - Dress appropriately
 - Maintain your poise
+<!--truncate-->
 - Network with colleague
   - Learn to say no
   - Find a mentor
