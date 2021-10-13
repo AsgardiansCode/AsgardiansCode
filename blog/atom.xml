@@ -8,14 +8,13 @@
     <subtitle>Asgardians Blog</subtitle>
     <icon>https://AsgardiansCode.github.io/AsgardiansCode/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>long-blog-post</id>
-        <link href="https://AsgardiansCode.github.io/AsgardiansCode/blog/long-blog-post"/>
+        <title type="html"><![CDATA[Agile]]></title>
+        <id>Agile</id>
+        <link href="https://AsgardiansCode.github.io/AsgardiansCode/blog/Agile"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Agile - the ability to continuously adapt and make improvements to the way team works]]></summary>
+        <summary type="html"><![CDATA[Agile Text]]></summary>
         <author>
-            <name>Endilie Yacop Sucipto</name>
-            <uri>https://github.com/endiliey</uri>
+            <name>Thimira Nirmal</name>
         </author>
     </entry>
     <entry>
@@ -31,6 +30,9 @@
         <author>
             <name>Yangshun Tay</name>
             <uri>https://github.com/yangshun</uri>
+        </author>
+        <author>
+            <name>Thimira Nirmal</name>
         </author>
     </entry>
     <entry>

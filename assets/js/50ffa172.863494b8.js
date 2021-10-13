@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkasgardians=self.webpackChunkasgardians||[]).push([[2740],{6740:function(a){a.exports=JSON.parse('{"allTagsPath":"/AsgardiansCode/blog/tags","slug":"/AsgardiansCode/blog/tags/agile","name":"agile","count":2,"permalink":"/AsgardiansCode/blog/tags/agile"}')}}]);
