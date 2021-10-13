@@ -94,6 +94,14 @@ Scrum Master - keep things organized.
 Dev team - Does the work. Dev software or other work.
 
 
+[https://blog.markshead.com/](https://blog.markshead.com/)
+
+[https://geekbot.com/blog/daily-standup-meeting/](https://geekbot.com/blog/daily-standup-meeting/)
+
+[https://www.agilealliance.org/glossary/scrum-master/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'scrum*20master))~searchTerm~'~sort~false~sortDirection~'asc~page~1)](https://www.agilealliance.org/glossary/scrum-master/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'scrum*20master))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
+
+[https://www.workfront.com/project-management/methodologies/scrum/sprint-planning](https://www.workfront.com/project-management/methodologies/scrum/sprint-planning)
+
 
 
  
