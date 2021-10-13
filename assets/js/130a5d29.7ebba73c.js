@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkasgardians=self.webpackChunkasgardians||[]).push([[742],{9009:function(s){s.exports=JSON.parse('{"allTagsPath":"/AsgardiansCode/blog/tags","slug":"/AsgardiansCode/blog/tags/docusaurus","name":"docusaurus","count":5,"permalink":"/AsgardiansCode/blog/tags/docusaurus"}')}}]);
