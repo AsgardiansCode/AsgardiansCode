@@ -1,9 +1,11 @@
 ---
-slug: long-blog-post
-title: Long Blog Post
-authors: endi
-tags: [hello, docusaurus]
+slug: Agile
+title: Agile
+authors: timnirmal
+tags: [agile, scrum]
 ---
+
+Agile Text
 
 <!--truncate-->
 
