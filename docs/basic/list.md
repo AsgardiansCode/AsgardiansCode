@@ -10,7 +10,7 @@ sidebar_position: 3
 <details>
 <summary> ['tim', 'nirmal'] </summary>
 
-````sldsmdsld
+````
 print(list1)
 ````
 
