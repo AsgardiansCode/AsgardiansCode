@@ -22,7 +22,7 @@ Each step can be found in respective commit,
 - Highlight Legal Moves
 - AI Done (Minimax with Alpha Beta)
 
-So thats about the introduction. Let's begging Project.
+So that's about the introduction. Lets begging Project.
 
 ## Setup Chess Board
 
@@ -49,9 +49,9 @@ Note that at this point it only show the Board and the Chess Pieces.
 
 ## Configurations
 
-### Oriantion
+### Orientation
 
-Oriantation can be either white or black which is the side you play.
+Orientation can be either white or black which is the side you play.
 
 ### Notation
 
@@ -75,13 +75,13 @@ function clickShowPositionBtn () {
 }
 ```
 
-After preparing board and now we can make out AI.
+After preparing board, and now we can make out AI.
 
 ## Preparing Evaluation Method
 
-First we need to prepare evaluation method which will be used in algorithm. Evaluation is technique that let players or algorithm decide which side is better in particular postion of the board. Based on these dicision palyer can decide either attac or loose and what move to do.
+First we need to prepare evaluation method which will be used in algorithm. Evaluation is technique that let players or algorithm decide which side is better in particular position of the board. Based on these divisions paler can decide either attack or loose and what move to do.
 
-[Evaluation](https://chessfox.com/example-of-the-complete-evaluation-process-of-chess-a-chess-position/) is kind of complex process so we use a simple method for that using [piece-square tables.](https://www.chessprogramming.org/Simplified_Evaluation_Function)
+[Evaluation](https://chessfox.com/example-of-the-complete-evaluation-process-of-chess-a-chess-position/) is kind of complex process, so we use a simple method for that using [piece-square tables.](https://www.chessprogramming.org/Simplified_Evaluation_Function)
 
 ### Pawns
 
@@ -108,7 +108,7 @@ First we need to prepare evaluation method which will be used in algorithm. Eval
 -30,  0, 15, 20, 20, 15,  0,-30,
 -30,  5, 10, 15, 15, 10,  5,-30,
 -40,-20,  0,  5,  5,  0,-20,-40,
--50,-40,-30,-30,-30,-30,-40,-50,
+-50,-40,-30,-30,-30,-30,-40,-50
 ```
 
 ### Bishop
@@ -156,7 +156,7 @@ First we need to prepare evaluation method which will be used in algorithm. Eval
 ### King
 
 ```js
-king middle game
+//king middle game
 -30,-40,-40,-50,-50,-40,-40,-30,
 -30,-40,-40,-50,-50,-40,-40,-30,
 -30,-40,-40,-50,-50,-40,-40,-30,
@@ -170,9 +170,9 @@ king middle game
 The middle game is defined since there is pawn shelter for king. When,
 
 1. Both sides have no queens or
-2. Every side which has a queen has additionally no other pieces or one minorpiece maximum.
+2. Every side which has a queen has additionally no other pieces or one minor piece maximum.
 
-End game is defined. (But we only use middle game table for this steps.)
+End game is defined. (But we only use middle game table for these steps.)
 
 ### King End Game
 
@@ -229,7 +229,7 @@ function minimax (position, depth, maximizingPlayer) {
 ```
 
 
-- postion - current position
+- position - current position
 
 - depth - how many moves ahead we need to search
 
@@ -268,6 +268,15 @@ else
 }
 ```
 
-So that's it and You can refere below links if more info needed,
+So that's it, and You can refer below links if more info needed,
+
+Minimax Algorithm
+- [https://www.youtube.com/watch?v=l-hh51ncgDI&ab_channel=SebastianLague](https://www.youtube.com/watch?v=l-hh51ncgDI&ab_channel=SebastianLague)
+
+Evaluation
+- [https://www.chessprogramming.org/Simplified_Evaluation_Function](https://www.chessprogramming.org/Simplified_Evaluation_Function)
+- [https://chessfox.com/example-of-the-complete-evaluation-process-of-chess-a-chess-position/](https://chessfox.com/example-of-the-complete-evaluation-process-of-chess-a-chess-position/)
+- [https://chessquestions.com/centipawn-loss-in-chess/](https://chessquestions.com/centipawn-loss-in-chess/)
+- [https://chess.fandom.com/wiki/Centipawn](https://chess.fandom.com/wiki/Centipawn)
 
 
