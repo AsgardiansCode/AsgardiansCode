@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://AsgardiansCode.github.io/AsgardiansCode/blog</id>
     <title>Asgardians Blog</title>
-    <updated>2021-10-18T07:14:44.252Z</updated>
+    <updated>2021-10-18T08:16:06.282Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://AsgardiansCode.github.io/AsgardiansCode/blog"/>
     <subtitle>Asgardians Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Agile]]></title>
         <id>Agile</id>
         <link href="https://AsgardiansCode.github.io/AsgardiansCode/blog/Agile"/>
-        <updated>2021-10-18T07:14:44.252Z</updated>
+        <updated>2021-10-18T08:16:06.282Z</updated>
         <summary type="html"><![CDATA[Agile - the ability to continuously adapt and make improvements to the way team works]]></summary>
         <author>
             <name>Thimira Nirmal</name>
@@ -21,7 +21,7 @@
         <title type="html"><![CDATA[Chess-AI]]></title>
         <id>Chess-AI</id>
         <link href="https://AsgardiansCode.github.io/AsgardiansCode/blog/Chess-AI"/>
-        <updated>2021-10-18T07:14:44.252Z</updated>
+        <updated>2021-10-18T08:16:06.282Z</updated>
         <summary type="html"><![CDATA[This project is made with chess and chesscoardjs.]]></summary>
         <author>
             <name>Thimira Nirmal</name>
@@ -31,7 +31,7 @@
         <title type="html"><![CDATA[Industry and WFH]]></title>
         <id>Industry</id>
         <link href="https://AsgardiansCode.github.io/AsgardiansCode/blog/Industry"/>
-        <updated>2021-10-18T07:14:44.252Z</updated>
+        <updated>2021-10-18T08:16:06.282Z</updated>
         <summary type="html"><![CDATA[Do's]]></summary>
         <author>
             <name>Thimira Nirmal</name>
@@ -41,7 +41,7 @@
         <title type="html"><![CDATA[Jobs]]></title>
         <id>Jobs</id>
         <link href="https://AsgardiansCode.github.io/AsgardiansCode/blog/Jobs"/>
-        <updated>2021-10-18T07:14:44.252Z</updated>
+        <updated>2021-10-18T08:16:06.282Z</updated>
         <summary type="html"><![CDATA[Computer Vision]]></summary>
         <author>
             <name>Thimira Nirmal</name>
