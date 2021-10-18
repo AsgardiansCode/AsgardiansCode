@@ -278,5 +278,3 @@ Evaluation
 - [https://chessfox.com/example-of-the-complete-evaluation-process-of-chess-a-chess-position/](https://chessfox.com/example-of-the-complete-evaluation-process-of-chess-a-chess-position/)
 - [https://chessquestions.com/centipawn-loss-in-chess/](https://chessquestions.com/centipawn-loss-in-chess/)
 - [https://chess.fandom.com/wiki/Centipawn](https://chess.fandom.com/wiki/Centipawn)
-
-
