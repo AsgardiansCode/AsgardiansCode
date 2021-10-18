@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkasgardians=self.webpackChunkasgardians||[]).push([[8742],{9592:function(a){a.exports=JSON.parse('{"allTagsPath":"/AsgardiansCode/blog/tags","slug":"/AsgardiansCode/blog/tags/ai","name":"AI","count":1,"permalink":"/AsgardiansCode/blog/tags/ai"}')}}]);

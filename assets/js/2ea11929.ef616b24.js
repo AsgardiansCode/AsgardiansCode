@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkasgardians=self.webpackChunkasgardians||[]).push([[147],{5781:function(s){s.exports=JSON.parse('{"allTagsPath":"/AsgardiansCode/blog/tags","slug":"/AsgardiansCode/blog/tags/chess","name":"Chess","count":1,"permalink":"/AsgardiansCode/blog/tags/chess"}')}}]);
