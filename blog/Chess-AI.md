@@ -1,4 +1,32 @@
-In inital commit all the files need to make the game is included. So go there and start your journey.
+---
+slug: Chess-AI
+title: Chess-AI
+authors: timnirmal
+tags: [Chess, AI]
+---
+
+This project is made with [chess](https://github.com/jhlywa/chess.js) and [chesscoardjs](https://github.com/oakmac/chessboardjs/).
+
+For AI, minimax algorithm and Piece-square tables are used.
+
+You can view the final output in here, [https://timnirmal.github.io/Chess-AI/](https://timnirmal.github.io/Chess-AI/)
+
+Code files Github : [https://github.com/timnirmal/Chess-AI](https://github.com/timnirmal/Chess-AI)
+
+Each step can be found in respective commit,
+- Initial commit - Basic Chess Board Setup files to start
+- Allow only Legal Moves
+- Simple Status
+- Computer Play Random
+- Computer Play Random both side
+- Highlight Legal Moves
+- AI Done (Minimax with Alpha Beta)
+
+So thats about the introduction. Let's begging Project.
+
+## Setup Chess Board
+
+In initial commit all the files need to make the game is included. So go there and start your journey.
 
 Even though below functions are empty you still need them to get output + we will use them later.
 
@@ -47,33 +75,13 @@ function clickShowPositionBtn () {
 }
 ```
 
-## Events
-
-### OnChange
-
-
-
-
-
-## Integrations
-
-### Only allow legal moves
-
-This will
-
-
-
 After preparing board and now we can make out AI.
-
-
 
 ## Preparing Evaluation Method
 
 First we need to prepare evaluation method which will be used in algorithm. Evaluation is technique that let players or algorithm decide which side is better in particular postion of the board. Based on these dicision palyer can decide either attac or loose and what move to do.
 
 [Evaluation](https://chessfox.com/example-of-the-complete-evaluation-process-of-chess-a-chess-position/) is kind of complex process so we use a simple method for that using [piece-square tables.](https://www.chessprogramming.org/Simplified_Evaluation_Function)
-
-
 
 ### Pawns
 
@@ -89,7 +97,7 @@ First we need to prepare evaluation method which will be used in algorithm. Eval
  0,  0,  0,  0,  0,  0,  0,  0
 ```
 
-Knight
+### Knight
 
 ```js
 // knight
@@ -103,7 +111,7 @@ Knight
 -50,-40,-30,-30,-30,-30,-40,-50,
 ```
 
-Bishop
+### Bishop
 
 ```js
 // bishop
@@ -117,10 +125,10 @@ Bishop
 -20,-10,-10,-10,-10,-10,-10,-20,
 ```
 
-Rook
+### Rook
 
 ```js
-rook
+//rook
   0,  0,  0,  0,  0,  0,  0,  0,
   5, 10, 10, 10, 10, 10, 10,  5,
  -5,  0,  0,  0,  0,  0,  0, -5,
@@ -131,7 +139,7 @@ rook
   0,  0,  0,  5,  5,  0,  0,  0
 ```
 
-Queen
+### Queen
 
 ```js
 //queen
@@ -145,7 +153,7 @@ Queen
 -20,-10,-10, -5, -5,-10,-10,-20
 ```
 
-King
+### King
 
 ```js
 king middle game
@@ -166,7 +174,7 @@ The middle game is defined since there is pawn shelter for king. When,
 
 End game is defined. (But we only use middle game table for this steps.)
 
-King End Game
+### King End Game
 
 ```js
 // king end game
@@ -179,7 +187,6 @@ King End Game
 -30,-30,  0,  0,  0,  0,-30,-30,
 -50,-30,-30,-30,-30,-30,-30,-50
 ```
-
 
 
 ## Centipawn Values
@@ -195,17 +202,9 @@ Centipawn is the unit of measure used in chess as measure of the advantage. A ce
 
 
 
-
-
-
-
-
-
-
-
 # Developing AI algorithm for Play Chess
 
-https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Plminmax.gif/400px-Plminmax.gif
+![img.png](img.png)
 
 Minimax Function Algorithm
 
@@ -230,15 +229,16 @@ function minimax (position, depth, maximizingPlayer) {
 ```
 
 
-postion - current position
+- postion - current position
 
-depth - how many moves ahead we need to search
+- depth - how many moves ahead we need to search
 
-maximizingPlayer = bool
+- maximizingPlayer = bool
 
 
+## Alpha Beta Pruning
 
-We can optimize this algorithm by introducing alpha beta
+We can optimize this algorithm by introducing alpha beta pruning
 
 This modification will speed up the code and reduce unnecessary calculations.
 
@@ -267,4 +267,7 @@ else
     return minEval
 }
 ```
+
+So that's it and You can refere below links if more info needed,
+
 
