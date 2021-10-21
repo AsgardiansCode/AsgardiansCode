@@ -4,35 +4,35 @@
         <title>Asgardians Blog</title>
         <link>https://AsgardiansCode.github.io/AsgardiansCode/blog</link>
         <description>Asgardians Blog</description>
-        <lastBuildDate>Mon, 18 Oct 2021 08:25:05 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Oct 2021 09:58:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Agile]]></title>
             <link>https://AsgardiansCode.github.io/AsgardiansCode/blog/Agile</link>
             <guid>Agile</guid>
-            <pubDate>Mon, 18 Oct 2021 08:25:05 GMT</pubDate>
+            <pubDate>Thu, 21 Oct 2021 09:58:47 GMT</pubDate>
             <description><![CDATA[Agile - the ability to continuously adapt and make improvements to the way team works]]></description>
         </item>
         <item>
             <title><![CDATA[Chess-AI]]></title>
             <link>https://AsgardiansCode.github.io/AsgardiansCode/blog/Chess-AI</link>
             <guid>Chess-AI</guid>
-            <pubDate>Mon, 18 Oct 2021 08:25:05 GMT</pubDate>
+            <pubDate>Thu, 21 Oct 2021 09:58:47 GMT</pubDate>
             <description><![CDATA[This project is made with chess and chesscoardjs.]]></description>
         </item>
         <item>
             <title><![CDATA[Industry and WFH]]></title>
             <link>https://AsgardiansCode.github.io/AsgardiansCode/blog/Industry</link>
             <guid>Industry</guid>
-            <pubDate>Mon, 18 Oct 2021 08:25:05 GMT</pubDate>
+            <pubDate>Thu, 21 Oct 2021 09:58:47 GMT</pubDate>
             <description><![CDATA[Do's]]></description>
         </item>
         <item>
             <title><![CDATA[Jobs]]></title>
             <link>https://AsgardiansCode.github.io/AsgardiansCode/blog/Jobs</link>
             <guid>Jobs</guid>
-            <pubDate>Mon, 18 Oct 2021 08:25:05 GMT</pubDate>
+            <pubDate>Thu, 21 Oct 2021 09:58:47 GMT</pubDate>
             <description><![CDATA[Computer Vision]]></description>
         </item>
         <item>
