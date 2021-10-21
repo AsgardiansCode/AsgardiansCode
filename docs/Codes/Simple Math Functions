@@ -1,0 +1,51 @@
+
+
+## Find Leap Year 
+`````py
+def is_leap(year):
+leap = False
+
+    # Write your logic here
+    if (year == 2100):
+        return False
+    if (year % 4 == 0):
+        leap = True
+        if (year % 400 == 0 and year % 100==0):
+            leap = True
+        elif (year % 400 == 0 and year % 100!=0):
+            leap = False
+
+    return leap
+`````
+
+## Permutations
+
+In here x,y,z numbers taken and all the permutations are added except x+y+z = n
+
+for 1,1,1,2 => [[0, 0, 0], [0, 0, 1], [0, 1, 0], [1, 0, 0], [1, 1, 1]]
+
+<details>
+
+````py
+if __name__ == '__main__':
+    x = int(input())
+    y = int(input())
+    z = int(input())
+    n = int(input())
+
+    a = []
+    for i in range(x+1):
+        for j in range(y+1):
+            for k in range(z+1):
+                b = []
+                if (i+j+k != n):
+                    b.append(i)
+                    b.append(j)
+                    b.append(k)
+                    a.append(b)
+
+    print(a)
+
+````
+
+</details>
