@@ -1,6 +1,5 @@
 
-5
-
+5    
 2 3 6 6 5
 
 `````py
@@ -14,3 +13,11 @@ if __name__ == '__main__':
 
     print(d[-2])
 `````
+
+ABCDEFGHIJKLIMNOQRSTUVWXYZ     
+4
+
+````py
+if __name__ == '__main__':
+string, max_width = input(), int(input())
+````
