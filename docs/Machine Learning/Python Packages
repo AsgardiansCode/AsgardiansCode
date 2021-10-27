@@ -54,7 +54,7 @@ Learn more on Pandas [https://pandas.pydata.org/pandas-docs/stable/user_guide/10
 Matplotlib is a data visualization library for Python. It is used to plot data and images.
 It can produce publication quality figures in a variety of hardtop formats and interactive environments across platforms.
 
-![img.png](../assets/img/machine-learning/Python_Packages/img.png)
+![](../assets/machine-learning/Python_Packages/img.png)
 
 Learn more on Matplotlib [https://matplotlib.org/](https://matplotlib.org/)
 
@@ -80,7 +80,7 @@ It provides efficient tools for
 
 via a consistence interface in Python. This is made based on the Numpy, Scipy, Matplotlib.
 
-![img_1.png](../assets/img/machine-learning/Python_Packages/img_1.png)
+![](../assets/machine-learning/Python_Packages/img_1.png)
 
 Learn more on Scikit-learn [https://scikit-learn.org/stable/](https://scikit-learn.org/stable/) and [www.tutorialspoint.com/scikit_learn](https://www.tutorialspoint.com/scikit_learn/scikit_learn_introduction.htm)
 
@@ -90,14 +90,14 @@ Plotly is an alternative to Matplotlib. It can do better and more beautiful, int
 
 It is kind of hard to start with compared to Matplotlib, and it is browser-based
 
-![](../assets/img/machine-learning/Python_Packages/img_3.png)
+![](../assets/machine-learning/Python_Packages/img_3.png)
 
 Learn more on Plotly [https://plot.ly/python/](https://plot.ly/python/)
 
 By using Dash python framework which created by creators of Plotly you can create interactive and beautiful web application with need of HTML, CSS and Javascript.
 
-![](../assets/img/machine-learning/Python_Packages/img_4.png)
+![](../assets/machine-learning/Python_Packages/img_4.png)
 
 Other uses in Plotly:
 
-![](../assets/img/machine-learning/Python_Packages/img_2.png)
+![](../assets/machine-learning/Python_Packages/img_2.png)
