@@ -82,5 +82,6 @@ Common Algorithms and techniques used in Supervised and Unsupervised learning.
 ![](../assets/machine-learning/Basics/img.png)
 
 
+
 ## Reinforcement learning
 
