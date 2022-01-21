@@ -6,13 +6,17 @@ screen using for loop and appropriate conditional statements.
 333333   
 222244   
 111115   
-(4 marks)   
+(4 marks)
+
+
 2 Consider that a programme generates 10,000 random numbers between   
 0 and 99. It is required to count those random numbers according to the   
 least significant digit in them. Finally, it displays the count under each   
 category. (Hint: A Hash table can be used for this task).   
 A) Write down the pseudo code for the above task. (1 marks)   
 B) Develop a programme to perform the above task. (5 marks)   
+
+
 3 Develop separate recursive functions to print the nth element of the   
 following number sequences if n is provided. It is not required to print the   
 entire sequence to the screen.   
